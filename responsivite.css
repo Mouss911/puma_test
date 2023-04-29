@@ -1,0 +1,46 @@
+@media only screen and (min-width: 768px){
+    header{
+        width: 100%; 
+        }
+    header .haut{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        gap: 30px;
+    }
+    header .haut .gauche{width: 100%;}
+    header .haut .droite{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        width: 100%;
+    }
+    header .bas{
+        display: flex;
+        flex-direction: column;
+    }
+    header .bas .foto .image{display: none;}
+    header .bas nav{width: 100%; display: flex; flex-direction: column; font-size: 40px;}
+    header .bas .icone{width: 100%; display: flex; font-size: 50px; justify-content: flex-start;}
+
+    .container .corp .puma{width: 150px; height: 150px;}
+    .container .corp .puma .image{width: 100%; height: 70%;}
+    .container .corp h1{font-size: 70px;}
+    .container .corp p{font-size: 30px;}
+    .container .corp .p2{width: 300px; margin-top: 30px; margin-bottom: 20px; font-size: 30px;}
+
+    .container .botom{width: 100%; height: 600px;}
+    .container .botom .centre{display: flex; flex-direction: column; width: 100%; top: 0; height: 70vh;}
+    .container .botom .centre .left{width: 100%; height: 50%;}
+    .container .botom .centre .right{width: 100%; height: 50%;}
+    .container .botom .centre .left fieldset{padding: 200px; margin-left: 50px; margin-right: 50px;}
+    .container .botom .centre .left fieldset legend p{ text-align: center; font-size: 50px;}
+    .container .botom .centre .left .left_botom p{ font-size: 30px;}
+
+    .container .botom .centre .right fieldset{padding: 200px; margin-left: 50px; margin-right: 50px;}
+    .container .botom .centre .right fieldset legend p{ text-align: center; font-size: 50px;}
+    .container .botom .centre .right .right_botom p{ font-size: 30px;}
+
+    fieldset{ border: 10px solid white;}
+
+}
